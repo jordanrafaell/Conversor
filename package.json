@@ -1,0 +1,21 @@
+{
+  "name": "conversor-para-pdf",
+  "version": "1.0.0",
+  "description": "App conversor global",
+  "main": "./configs/Electron/main.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon --exec electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jordanrafaell/Conversor.git"
+  },
+  "author": "Dev Jordan",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.39",
+    "tailwindcss": "^3.4.6"
+  }
+}
